@@ -27,11 +27,10 @@
 
 .board {
     width: 50%;
-    height: 250px;
 }
 
 .board h2 {
-    margin: 3em 0;
+    margin-top: 4em;
 }
 
 .board span {
@@ -40,6 +39,7 @@
 }
 
 #result_board {
+    min-width: 500px;
     position: absolute;
     top: 120px;
     left: 50%;
