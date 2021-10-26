@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>dadi ex.</title>
 </head>
 <body>
 
     <div id="container">
-    
-        <h1>Boolean Dice Challenge</h1>
+        
+        <div id="game_title">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Two_red_dice_01.svg/2560px-Two_red_dice_01.svg.png" alt="">
+            <h1>Boolean Dice Challenge</h1>
+        </div>
 
-        <div id="result_board"></div>
-    
         <div class="board">
             <h2>Player Number</h2>
             <span id="player_number"></span>
@@ -23,12 +25,15 @@
             <span id="computer_number"></span>
         </div>
 
-        <div>
-            <a href="">
-                &olarr; Try again
-            </a>
-        </div>
+        <div id="result_board"></div>
+        
+    </div>
 
+    <div id="try_again">
+        <a href="">
+           <span>&olarr;</span>
+           <h2>Play again</h2>
+        </a>
     </div>
 
     <script src="main.js"></script>

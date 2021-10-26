@@ -18,11 +18,14 @@ computerBoard.append(comNumber);
 // Check who has the higher number.
 // Print the winner.
 if (userNumber > comNumber) {
-    resultBoard.append("Complimenti, hai vinto!");
+    resultBoard.append("Congratulations! You won!");
+    resultBoard.classList.add("win");
 } else if (comNumber > userNumber) {
-    resultBoard.append("Ritenta, sarai più fortunato!");
+    resultBoard.append("That's unfortunate..you lost!");
+    resultBoard.classList.add("loss");
 } else if (comNumber = userNumber) {
-    resultBoard.append("Incredibile, è un pareggio!");
+    resultBoard.append("It's a draw! Play again!");
+    resultBoard.classList.add("draw");
 }
 
 
